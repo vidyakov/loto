@@ -1,0 +1,14 @@
+version: "3"
+
+
+services:
+  loto:
+    build:
+      context: .
+    entrypoint:
+      - "python3"
+      - "main.py"
+    command:
+      - "c"
+      - "c"
+      - "c"
